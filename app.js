@@ -12,7 +12,7 @@ var pp = function(o) { return JSON.stringify(o,null,'  ')};
 
 http.createServer(function(req, res) {
 	var uri = url.parse(req.url);
-    var args = {}, charset = 'lcharset=utf-8';
+    var args = {};
 
     if (uri.query) {
 	    uri.query.split('&')
