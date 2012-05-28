@@ -8,5 +8,5 @@ Basically, run this node app on nodejitsu or similar to make proxied cross-domai
 
 Make requests to the proxy:
 
-* http://127.0.0.1:8001/?route=20&callback=CallBackName
+* http://translink-node.jit.su/?route=20&callback=fetchRoute
 
